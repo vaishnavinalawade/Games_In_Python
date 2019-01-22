@@ -1,2 +1,2 @@
-# Games_In_Python
-This repository contains all the games created using Python
+# Programs_In_Python
+This repository contains all the programs created using Python
