@@ -1,11 +1,9 @@
 /*
 
-The program to find the given number is a palindrome
+The program to find if the given number and the given string are palindromes
 
 */
 
-
-n = input("Enter the number:")
 
 def palindrome(n):
     temp = n
@@ -18,5 +16,18 @@ def palindrome(n):
         print "Number is palindrome"
     else:
         print("Number is not a palindrome") 
+        
+ def string_pal(s):
+    s = s.replace(' ','')
+    s = s.lower()
+    if s[::] == s[::-1]:
+        print "The string is palindrome"
+    else:
+        print "The string is not palindrome"
  
- palindrome(n)
+
+n = input(int("Enter the number:"))
+palindrome(n)
+
+s = input("Enter a word:")
+string_pal(s)
